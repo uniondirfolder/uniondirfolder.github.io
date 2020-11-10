@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <title>Кнопки</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fuid text-center">
+        <br>
+        <h2>Кнопки і стилі для них</h2>
+        <p>Зверніть увагу на те, що червона кнопка заблокована.</p>
+        <button type="button" class="btn">Проста кнопка</button>
+        <button type="button" class="btn btn-primary">Основна кнопка</button>
+        <button type="button" class="btn btn-secondary "><span class="spinner-border spinner-border-sm"></span>
+            Завантажую...</button>
+        <button type="button" class="btn btn-success">Успіх</button>
+        <button type="button" class="btn btn-info">Відомості</button>
+        <button type="button" class="btn btn-warning">Попередження</button>
+        <button type="button" class="btn btn-danger " disabled>Загроза</button>
+        <button type="button" class="btn btn-dark">Темна кнопка</button>
+        <button type="button" class="btn btn-link"><a href="https://www.youtube.com/channel/UCam6b9rzryJj-j4GFrptj8w"
+                target="_blank">Кнопка-лінк</a></button>
+        <br>
+        <h2>Кнопки-контури</h2>
+        <button type="button" class="btn btn-outline-primary btn-lg">Велика</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm">Мала</button>
+        <p>Додайте клас <code>btn-block</code>, щоб створити кнопку, яка охоплює всю ширину батьківського елемента.
+            <button type="button" class="btn btn-primary btn-block">Дуже широка кнопка</button>
+            <br>
+        <h2>Меню</h2>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Пункт 1</button>
+            <button type="button" class="btn btn-primary">Пункт 2</button>
+            <button type="button" class="btn btn-primary">Пункт 3</button>
+        </div>
+        <br>
+        <h2>Значки</h2>
+        <span class="badge badge-primary">Яскраво</span>
+        <span class="badge badge-info">Значки виділяють певний текст</span>
+        <span class="badge badge-dark">Темно</span>
+        <br>
+        <h2>Панель виконання</h2>
+        <div class="progress">
+            <div class="progress-bar" style="width:75%">Виконано на 75%</div>
+        </div>
+        <br>
+        <h2>Моргання</h2>
+        <div class="spinner-grow text-muted"></div>
+        <div class="spinner-grow text-primary"></div>
+        <div class="spinner-grow text-success"></div>
+        <div class="spinner-grow text-info"></div>
+        <div class="spinner-grow text-warning"></div>
+        <div class="spinner-grow text-danger"></div>
+        <div class="spinner-grow text-secondary"></div>
+        <div class="spinner-grow text-dark"></div>
+        <div class="spinner-grow text-light"></div>
+        <h2>Меню випадаюче</h2>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-primary">Samsung</button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    Sony
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Tablet</a>
+                    <a class="dropdown-item" href="#">Smartphone</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

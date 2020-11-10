@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <title>Приклад таблиці</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class='text-center'>Сітка</h1>
+        <p class='text-justify'>Сіткова система Bootstrap побудована за допомогою flexbox і дозволяє розміщувати до 12
+            стовпців на всій сторінці. Властивість <a href='https://css.in.ua/css/property/flex'
+                target='_blank'>flex</a> дозволяє вказати параметри елемента, щоб він ефективно заповнював доступний
+            простір. Елементи можуть бути розтягнуті пропорційно з урахуванням заданого співвідношення або стиснуті, щоб
+            цілком вмістити всі елементи без переносів в один рядок.
+
+            Ви можете згрупувати їх, щоб створити ширші стовпці:<br>
+        <figure>
+            <img src="сітка.png" width='1880'>
+        </figure>
+        Переконайтеся, що сума дорівнює 12 або менше (необов’язково використовувати всі 12 доступних стовпців).
+        <h2 class='text-center'>Класи сітки</h2>
+        Сіткова система Bootstrap 4 має п’ять класів:<br>
+        <ul>
+            <li>.col- (дуже маленькі пристрої - ширина екрану менше 576px)</li>
+            <li>.col-sm- (невеликі пристрої - ширина екрану дорівнює або перевищує 576px)</li>
+            <li>.col-md- (середні пристрої - ширина екрану дорівнює або перевищує 768px)</li>
+            <li>.col-lg- (великі пристрої - ширина екрану дорівнює або перевищує 992px)</li>
+            <li>.col-xl- (пристрої xlarge - ширина екрану дорівнює або перевищує 1200px)</li>
+        </ul>
+        Наведені вище класи можна поєднувати, щоб створити більш динамічні та гнучкі макети.
+        Спробуйте додати новий розділ div з class = "col" всередині класу рядків - це створить три стовпці однакової
+        ширини.</p>
+        <h2 class='text-center'>Три рівні колонки</h2>
+        <div class="row">
+            <div class="col" style="background-color:DarkOrange;">Зірки золотисті, захмарні зиґзаги<br>
+                Земляків закликають здійснити звитягу!<br></div>
+            <div class="col" style="background-color:DarkOrange;">Дзвонар дзвонами дзвонив дзело-дзело: <br>
+                Дзотам, дзиґам, дзбанам дзвеніло.</div>
+            <div class="col" style="background-color:DarkOrange;">Інсайт ігристо ідею ілюструє.<br>
+                Імпульс істотно ірій інформує.</div>
+        </div>
+    </div>

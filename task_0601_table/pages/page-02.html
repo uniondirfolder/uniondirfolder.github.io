@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <title>Повідомлення</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="text-center">Сповіщення</h2>
+        <p class="text-justify">Сповіщення створюють за допомогою класу <code>alert</code>, а потім за класами кольорів.
+            Додайте клас <code>alert-link</code> до будь-яких посилань у вікні сповіщення, щоб створити "відповідні
+            кольорові посилання". Щоб можна було закрити попереджувальне повідомлення, додайте клас
+            <code>alert-dismissible</code> до контейнера попереджень. Потім додайте
+            <code>class = "close" data-dismiss = "alert"</code> до кнопки (при натисканні на це поле сповіщення зникне).
+            &times - є значком для кнопок закриття, але не буквою. <a
+                href="https://www.w3schools.com/charsets/ref_html_entities_4.asp" target="_blank">Список</a> усіх спец
+            символів можна переглянути за лінком.</p>
+        <div class="alert alert-success">
+            <strong>Успіх!</strong> Це попередження може вказувати на успішну чи позитивну дію.
+        </div>
+        <div class="alert alert-info">
+            <strong>Інформація!</strong> Це попередження може вказувати на нейтральну інформативну зміну чи дію.
+        </div>
+        <div class="alert alert-warning">
+            <strong>Увага!</strong> У цьому вікні сповіщення може вказуватися попередження, яке може потребувати уваги.
+        </div>
+        <div class="alert alert-danger ">
+            <strong>Небезпека!</strong> Це поле попередження може вказувати на загрозу або потенційно негативну дію.
+        </div>
+        <div class="alert alert-primary">
+            <strong>Первинне.</strong> Позначає важливу дію.<a
+                href="https://www.w3schools.com/charsets/ref_html_entities_4.asp" class="alert-link"
+                target="_blank">Обов'язково прочитайте це!</a>
+        </div>
+        <div class="alert alert-secondary">
+            <strong>Вторинне.</strong> Позначає менш важливу дію.
+        </div>
+        <div class="alert alert-dark alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Темна тема.</strong> Темно-сіре повідомлення.
+        </div>
+        <div class="alert alert-light alert-dismissible fade show">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Світла тема.</strong> Світло-сіра тема.
+        </div>
+    </div>
+</body>
+
+</html>
