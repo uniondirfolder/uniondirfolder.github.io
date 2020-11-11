@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <title>Зведена таблиця</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <div style="padding-top: 10%;">
+            <table class="table table-striped table-bordered table-sm" style="text-align: center; border: royalblue;">
+                <thead>
+                    <tr class="table-primary" style="font-size: 20px;">
+                        <th scope="col">#</th>
+                        <th scope="col">Нижній коридор</th>
+                        <th scope="col">Верхній коридор</th>
+                        <th scope="col">Ціна покупки</th>
+                        <th scope="col">Ціна продажу</th>
+                        <th scope="col">Розмір покупки</th>
+                        <th scope="col">Розмір продажу</th>
+                    </tr>
+                </thead>
+                <tbody style="font-size: 18px;">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>123,60</td>
+                        <td>189,60</td>
+                        <td>90,60</td>
+                        <td>190,70</td>
+                        <td>1025,60</td>
+                        <td>2024,70</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>223,60</td>
+                        <td>289,60</td>
+                        <td>100,60</td>
+                        <td>290,70</td>
+                        <td>2025,60</td>
+                        <td>3024,70</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>423,60</td>
+                        <td>489,60</td>
+                        <td>490,60</td>
+                        <td>4190,70</td>
+                        <td>41025,60</td>
+                        <td>42024,70</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>423,60</td>
+                        <td>489,60</td>
+                        <td>490,60</td>
+                        <td>4190,70</td>
+                        <td>41025,60</td>
+                        <td>42024,70</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>523,60</td>
+                        <td>589,60</td>
+                        <td>590,60</td>
+                        <td>5190,70</td>
+                        <td>51025,60</td>
+                        <td>52024,70</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>623,60</td>
+                        <td>689,60</td>
+                        <td>690,60</td>
+                        <td>6190,70</td>
+                        <td>61025,60</td>
+                        <td>62024,70</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>723,60</td>
+                        <td>789,60</td>
+                        <td>790,60</td>
+                        <td>7190,70</td>
+                        <td>71025,60</td>
+                        <td>72024,70</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>823,60</td>
+                        <td>989,60</td>
+                        <td>1090,60</td>
+                        <td>11190,70</td>
+                        <td>121025,60</td>
+                        <td>172024,70</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#example2-tab1-dt').DataTable({
+                responsive: true
+            });
+            $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                $($.fn.dataTable.tables(true)).DataTable()
+                    .columns.adjust()
+                    .responsive.recalc();
+            });
+        });
+    </script>
+</body>
+
+</html>
