@@ -1,0 +1,12 @@
+
+#mainContent span, h2{
+    color:#f9ffaa;
+    font-weight: 100;
+}
+#mainNavbar ul li a.nav-link:hover{
+    color:#f9ffaa;
+} 
+body{
+    color:#f9ffaa;
+    font-weight: 100;
+}
