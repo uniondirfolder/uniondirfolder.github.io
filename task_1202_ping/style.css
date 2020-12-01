@@ -1,0 +1,33 @@
+body {
+    height:900px;
+    }
+    #field {
+      height:99%;
+      width: 99%;
+      border: 10px solid white;
+      background-color: #00FF00;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      z-index: 2;
+    }
+    #ball {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 40px;
+      height: 40px;
+      transition: all 1s;
+      z-index: 3;
+    }
+    .vl {
+        border-left: 8px solid green;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        top: 0;
+        z-index: 0;
+    }
+
+   
