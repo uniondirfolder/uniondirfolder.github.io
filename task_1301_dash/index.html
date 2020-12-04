@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+  <title>Панель керування</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <link href="bootstrap.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="wrapper ">
+    <div class="sidebar" data-color="green" data-background-color="white">
+      <div class="logo">
+        <a href="" class="simple-text logo-normal">
+          Компанія
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="nav-item active  ">
+            <a class="nav-link" href="#0">
+              <i class="material-icons">dashboard</i>
+              <p>Панель керування</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#1">
+              <i class="material-icons">person</i>
+              <p>Профіль користувача</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#2">
+              <i class="material-icons">location_ons</i>
+              <p>Геолокація</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#3">
+              <i class="material-icons">notifications</i>
+              <p>Нагадування</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#4">
+              <i class="material-icons">language</i>
+              <p>Підтримка</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <a class="navbar-brand" href="javascript:;">Панель керування</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-stats">
+                <div class="card-header card-header-warning card-header-icon">
+                  <div class="card-icon">
+                    <i class="material-icons">storage</i>
+                  </div>
+                  <p class="card-category">Простір</p>
+                  <h3 class="card-title">49/50
+                    <small>GB</small>
+                  </h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons text-danger">warning</i>
+                    <a href="javascript:;">Потрібно збільшити простір...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-stats">
+                <div class="card-header card-header-success card-header-icon">
+                  <div class="card-icon">
+                    <i class="material-icons">calculate</i>
+                  </div>
+                  <p class="card-category">Дохід</p>
+                  <h3 class="card-title">$34,245</h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">date_range</i> За добу
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-stats">
+                <div class="card-header card-header-danger card-header-icon">
+                  <div class="card-icon">
+                    <i class="material-icons">settings-transfer</i>
+                  </div>
+                  <p class="card-category">Виправлення</p>
+                  <h3 class="card-title">75</h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">list_alt</i> Відстежується з Github
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-stats">
+                <div class="card-header card-header-info card-header-icon">
+                  <div class="card-icon">
+                    <i class="material-icons">how_to_vote</i>
+                  </div>
+                  <p class="card-category">Поціновувачі</p>
+                  <h3 class="card-title">+245</h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">update</i> Оновлено мить тому
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-chart">
+                <div class="card-header card-header-success">
+                  <img src="temp.png" class="img-fluid" style="width: 450px;">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Щоденні продажі</h4>
+                  <p class="card-category">
+                    <span class="text-success"><i class="fa fa-long-arrow-up"></i> 55% </span> збільшення продажів
+                    сьогодні.</p>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">access_time</i> оновлено 4 хв тому
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-chart">
+                <div class="card-header card-header-warning">
+                  <img src="temp.png" class="img-fluid" style="width: 450px;">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Підписка на електронну пошту</h4>
+                  <p class="card-category">Остання акція</p>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">access_time</i> компаніям надіслано 2 дні тому
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-chart">
+                <div class="card-header card-header-primary">
+                  <img src="temp.png" class="img-fluid" style="width: 450px;">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Виконані заходи</h4>
+                  <p class="card-category">Останній захід</p>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">access_time</i> компаніям запропоновано 2 дні тому
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="card">
+                <div class="card-header card-header-tabs card-header-primary">
+                  <div class="nav-tabs-navigation">
+                    <div class="nav-tabs-wrapper">
+                      <span class="nav-tabs-title">Процеси:</span>
+                      <ul class="nav nav-tabs" data-tabs="tabs">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#" data-toggle="tab">
+                            <i class="material-icons">bug_report</i> Помилки
+                            <div class="ripple-container"></div>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" data-toggle="tab">
+                            <i class="material-icons">code</i> Вебсайт
+                            <div class="ripple-container"></div>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" data-toggle="tab">
+                            <i class="material-icons">cloud</i> Сервер
+                            <div class="ripple-container"></div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="profile">
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" value="" checked>
+                                  <span class="form-check-sign">
+                                    <span class="check"></span>
+                                  </span>
+                                </label>
+                              </div>
+                            </td>
+                            <td>Підписати контракт на тему "Чого бояться організатори конференцій?"</td>
+                            <td class="td-actions text-right">
+                              <button type="button" rel="tooltip" title="Edit Task"
+                                class="btn btn-primary btn-link btn-sm">
+                                <i class="material-icons">edit</i>
+                              </button>
+                              <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                <i class="material-icons">close</i>
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" value="">
+                                  <span class="form-check-sign">
+                                    <span class="check"></span>
+                                  </span>
+                                </label>
+                              </div>
+                            </td>
+                            <td>Рядки з висловлювань Мао-Дзе Дуна? Або електронні листи від мого боса?</td>
+                            <td class="td-actions text-right">
+                              <button type="button" rel="tooltip" title="Edit Task"
+                                class="btn btn-primary btn-link btn-sm">
+                                <i class="material-icons">edit</i>
+                              </button>
+                              <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                <i class="material-icons">close</i>
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" value="">
+                                  <span class="form-check-sign">
+                                    <span class="check"></span>
+                                  </span>
+                                </label>
+                              </div>
+                            </td>
+                            <td>Затоплено: рік потому, оцінюючи, що було втрачено і що виявлено, коли спустошливий дощ
+                              пронісся через метро Детройт
+                            </td>
+                            <td class="td-actions text-right">
+                              <button type="button" rel="tooltip" title="Edit Task"
+                                class="btn btn-primary btn-link btn-sm">
+                                <i class="material-icons">edit</i>
+                              </button>
+                              <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                <i class="material-icons">close</i>
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" value="" checked>
+                                  <span class="form-check-sign">
+                                    <span class="check"></span>
+                                  </span>
+                                </label>
+                              </div>
+                            </td>
+                            <td>Створіть 4 невидимі користувацькі враження, про які ви ніколи не знали</td>
+                            <td class="td-actions text-right">
+                              <button type="button" rel="tooltip" title="Edit Task"
+                                class="btn btn-primary btn-link btn-sm">
+                                <i class="material-icons">edit</i>
+                              </button>
+                              <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                <i class="material-icons">close</i>
+                              </button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="card">
+                <div class="card-header card-header-warning">
+                  <h4 class="card-title">Статистика співробітників</h4>
+                  <p class="card-category">Нові працівники 04 грудня 2020 року</p>
+                </div>
+                <div class="card-body table-responsive">
+                  <table class="table table-hover">
+                    <thead class="text-warning">
+                      <th>ID</th>
+                      <th>Назва</th>
+                      <th>Зарплатня</th>
+                      <th>Країна</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Вулик Василь</td>
+                        <td>$36,738</td>
+                        <td>Україна</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Ані Ватермарк</td>
+                        <td>$23,789</td>
+                        <td>Шотландія</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Педро Лопез</td>
+                        <td>$56,142</td>
+                        <td>Беларусь</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Філіп Товер</td>
+                        <td>$38,735</td>
+                        <td>Китай</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <nav class="float-left">
+            <ul>
+              <li>
+                <a href="#0">
+                  Інформація
+                </a>
+              </li>
+              <li>
+                <a href="#1">
+                  Блог
+                </a>
+              </li>
+              <li>
+                <a href="#2">
+                  Ліцензії
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright float-right">
+            &copy;
+            <script>
+              document.write(new Date().getFullYear())
+            </script>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+</body>
+
+</html>
